@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click counter</title>
+</head>
+<body>
+    <button onclick="numberСlicks()" class="btn-click">Click me</button>
+    <label>Count click</label>
+    <input class="inpt-result" readonly>
+</body>
+</html>
+
+<script>
+    function numberСlicks() {
+        let input = document.querySelector('input.inpt-result');
+        input.value++;
+    }
+     
+</script>

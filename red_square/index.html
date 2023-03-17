@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red square</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="square"></div>
+</body>
+</html>
+<script>
+    let btn = document.querySelector('div.square');
+    let position = 0;
+    let timerId = setInterval(function() {
+        position++;
+        btn.style.left = position + "px";
+    }, 500);
+</script>

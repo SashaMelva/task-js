@@ -1,0 +1,20 @@
+{
+  "name": "task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "task.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node task.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SashaMelva/task-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SashaMelva/task-js/issues"
+  },
+  "homepage": "https://github.com/SashaMelva/task-js#readme"
+}
